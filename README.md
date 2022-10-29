@@ -1,2 +1,2 @@
 # EJS
-Página utilizando NODEJS + EJS, criada a partir da Trilha Fundamentar Rocketseat
+Página feita utilizando NODEJS + EJS, criada a partir da Trilha Fundamentar Rocketseat
