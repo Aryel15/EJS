@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('../layout/head'); %>
+<body>
+    <%- include('../layout/header'); %>
+    <main>
+        <div>
+            <h1>Node com EJS</h1>
+            <p>Vamos aprender a trabalhar com arquivos EJS</p>
+        </div>
+        <div class="ejs">
+            <ul>
+                <% qualidades.forEach(function(qualidade){ %>
+
+                    <li><strong><%= qualidade.title %></strong><%= qualidade.message %></li>
+
+                <% }) %>
+            </ul>
+        </div>
+    </main>
+    <%- include('../layout/footer'); %>
+</body>
+</html>
